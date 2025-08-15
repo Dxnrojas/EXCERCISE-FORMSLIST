@@ -3,9 +3,9 @@ import "./Forms.css";
 
 export default function Forms() {
   const [titulo, setTitulo] = useState("");
-  const [prioridad, setPrioridad] = useState("media"); // baja | media | alta
+  const [prioridad, setPrioridad] = useState("media"); 
   const [tareas, setTareas] = useState([]);
-  const [filtro, setFiltro] = useState("todas"); // todas | baja | media | alta
+  const [filtro, setFiltro] = useState("todas"); 
 
   function handleAddTask(e) {
     e.preventDefault();
